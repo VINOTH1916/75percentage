@@ -5,8 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignInActivity">
-
+    tools:context=".EducationDetailsActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,29 +13,34 @@
         android:padding="16dp">
 
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/collegeName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email" />
+            android:hint="College Name" />
 
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/studentName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
-            android:inputType="textPassword" />
+            android:hint="Student Name" />
+
+        <EditText
+            android:id="@+id/course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course" />
+
+        <EditText
+            android:id="@+id/yearOfStudy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Year of Study" />
 
         <Button
-            android:id="@+id/btnSignIn"
+            android:id="@+id/btnNext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sign In" />
-
-        <Button
-            android:id="@+id/btnSignUp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Sign Up" />
+            android:text="Next" />
 
     </LinearLayout>
 
